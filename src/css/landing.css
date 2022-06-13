@@ -1,0 +1,46 @@
+.landing-area {
+  margin-top: 5rem;
+}
+
+.landing-header {
+  font-size: 8rem;
+}
+
+.landing-subheader {
+  margin-top: 2.5rem;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+  .landing-image {
+    display: none !important;
+  }
+
+  .landing-content {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center;
+    height: 40rem;
+    background: linear-gradient(
+      135deg,
+      #0a0908,
+      #0a0908 36%,
+      #9b1d20 68%,
+      #9b1d20
+    );
+    border-radius: 8%;
+  }
+
+  .landing-header {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .landing-image,
+  .landing-content {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
