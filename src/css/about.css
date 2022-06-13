@@ -1,0 +1,24 @@
+.about-section {
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.about-section-header {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+.about-writing {
+  font-size: 2rem;
+}
+
+.break-div {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.red-text {
+  color: #f50104;
+}
